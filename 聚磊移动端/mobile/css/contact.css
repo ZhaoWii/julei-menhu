@@ -1,0 +1,24 @@
+.newslist-img {
+    /* width: 100%; */
+    height: 210px;
+    padding: 2%;
+}
+
+.newslist-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.des-wrap {
+    padding: 2%;
+}
+
+.header {
+    font-size: 1.4rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-top: 10px;
+}

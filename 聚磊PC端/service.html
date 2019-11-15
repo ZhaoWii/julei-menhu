@@ -1,0 +1,506 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="keywords" content="">
+
+    <meta name="description" content="">
+
+    <meta name="author" content="YY-MO">
+
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+
+    <meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" href="./css/service.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./lib./css/lib.css">
+    <link rel="stylesheet" href="./lib./css/style.css">
+    <link rel="stylesheet" href="./lib./css/4100.css">
+    <script src="./lib./js/jQuery.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.6.core.widget.js"></script>
+    <script type="text/javascript" src="js/jqueryui.bannerize.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#banners').bannerize({
+                shuffle: 1,
+                interval: "5"
+            });
+            $(".ui-line").hover(function() {
+                $(this).addClass("ui-line-hover");
+                $(this).find(".ui-bnnerp").addClass("ui-bnnerp-hover");
+            }, function() {
+                $(this).removeClass("ui-line-hover");
+                $(this).find(".ui-bnnerp").removeClass("ui-bnnerp-hover");
+            });
+        });
+    </script>
+
+    <title>服务网点</title>
+</head>
+
+<body data-uid="" class="page_body">
+    <div class="bodyMask"> </div>
+    <div id="header" class="index_nav">
+        <div class="content">
+            <a href="./index.html" id="logo"><img src="./imgs/1505115294665.png" height="40" /></a>
+
+            <ul id="nav">
+
+
+                <li class="navitem"><a class="nav-a" href="./index.html" target="_self"><span
+                  data-title="首页">首页</span></a></li>
+
+                <li class="navitem">
+                    <a class="nav-a" href="javascript:;" target="">
+                        <span data-title="关于我们">关于我们</span>
+                        <span class="iconfont iconnext"></span>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="./intro.html" target="_self"><span data-title="公司简介">公司简介</span>
+                  <span class="iconfont iconnext"></span></a></li>
+
+                        <li><a href="./group.html" target="_self"><span data-title="团队展示">团队展示</span>
+                  <span class="iconfont iconnext"></span></a></li>
+
+                        <li>
+                            <a href="./contact.html" target="_self">
+                                <span data-title="联系我们">联系我们</span>
+                                <span class="iconfont iconnext"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li class="navitem"><a class="nav-a " href="./business.html" target="_self"><span
+                    data-title="业务范围">业务范围</span></a></li>
+
+                <li class="navitem"><a class="nav-a active" href="javascript:;" target="_self"><span data-title="服务网点">服务网点</span>
+                      <span class="iconfont iconnext"></span>
+                    </a>
+                    <ul class="subnav">
+
+                        <li><a href="./service.html" target="_self"><span data-title="网点展示">网点展示</span><span class="iconfont iconnext"></span></a></li>
+
+                        <li><a href="./servicecheck.html" target="_self"><span data-title="网点查询">网点查询</span><span class="iconfont iconnext"></span></a></li>
+
+                    </ul>
+
+                </li>
+
+                <li class="navitem"><a class="nav-a " href="javascript:;" target=""><span
+                  data-title="合作共赢">合作共赢</span> <span class=" iconfont iconnext"></span></a>
+                    <ul class="subnav">
+
+
+                        <li><a href="./attract.html" target="_self"><span data-title="现货招商">现货招商</span> <span
+                      class="iconfont iconnext"></span></a></li>
+
+                        <li><a href="./hiring.html" target="_self"><span data-title="人才招聘">人才招聘</span> <span
+                      class="iconfont iconnext"></span></a></li>
+                        <li><a href="./download.html" target="_self"><span data-title="资料下载">资料下载</span> <span
+                      class="iconfont iconnext"></span></a></li>
+                    </ul>
+
+                </li>
+
+                <li class="navitem"><a class="nav-a " href="./newsCenter.html" target="_self"><span
+                      data-title="资讯服务">资讯服务</span></a></li>
+
+                <li class="navitem"><a class="nav-a " href="./entrance.html" target="_self"><span
+                      data-title="商城入口">商城入口</span></a></li>
+
+            </ul>
+
+            <div class="clear"></div>
+
+        </div>
+
+        </li>
+
+        <a id="headSHBtn" href="javascript:;"><i class="fa fa-bars"></i></a>
+
+    </div>
+
+    <div id="sitecontent">
+
+
+        <div id="indexPage">
+
+            <div id="mslider" class="module">
+
+                <div class="banner" style="width: 100%; height: 100px;">
+                    <img src="./imgs/banner1.jpg" alt="">
+                </div>
+            </div>
+            <div id="mindex" data-options-ease="Expo.easeInOut" data-options-speed="1" data-options-sscreen="0"></div>
+
+
+
+            <!-- 中间部分 -->
+            <!-- <div class="service module">
+                <div class="image">
+                    <div class="row item-content">
+
+                        <div class="list">
+                            <div class="item-content-text">
+                                <div class="title">
+                                    <h3 class="text-left">ABOUT US</h3>
+                                    <h4 class="text-left">关于我们</h4>
+                                    <hr>
+                                </div>
+                                <p>优秀的服务质量，完美的客户体验以及高水准的专业服务团队，为企业建立优秀的公司形象、打造不凡广泛的品牌知名度，构建企业的核心竞争力优势。公司与多家省内外知名企业建立起了广泛良好的合作关系。团队拥有资深的导演、策划、拍摄和制作团队，专注为客户创造和设计品牌传播价值，提供从影视广告拍摄制作、360全景视频制作、演出视频等音像制作，全面提升客户品牌传播价值。</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 list-left">
+                            <div class="item">
+                                <img class="img-responsive" src="imgs/01.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="service module">
+                <div class="image">
+                    <div class="row item-content">
+                        <div class="col-xs-12 col-sm-6 list-left">
+                            <div class="item">
+                                <img class="img-responsive" src="imgs/01.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="list">
+                            <div class="item-content-text">
+                                <div class="title">
+                                    <h3 class="text-left">ABOUT US</h3>
+                                    <h4 class="text-left">关于我们</h4>
+                                    <hr>
+                                </div>
+                                <p>优秀的服务质量，完美的客户体验以及高水准的专业服务团队，为企业建立优秀的公司形象、打造不凡广泛的品牌知名度，构建企业的核心竞争力优势。公司与多家省内外知名企业建立起了广泛良好的合作关系。团队拥有资深的导演、策划、拍摄和制作团队，专注为客户创造和设计品牌传播价值，提供从影视广告拍摄制作、360全景视频制作、演出视频等音像制作，全面提升客户品牌传播价值。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="index-new w1200 mt30">
+
+                <div class="indexadd mt50 mb60">
+                    <div id="banners" class="ui-banner">
+                        <ul class="ui-banner-slides">
+                            <li>
+                                <a href=""><img src="./imgs/simgd.jpg" alt="NEW! Get Heart Smart With Essential Omega III" title="NEW! Get Heart Smart With Essential Omega III" /></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="./imgs/simgd.jpg" alt="NEW! Support Your Skin on a Cellular Level" title="NEW! Support Your Skin on a Cellular Level" /></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="./imgs/simgd.jpg" alt="NEW! Indulge in Luxury With Royal Spa" title="NEW! Indulge in Luxury With Royal Spa" /></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="./imgs/simgd.jpg" alt="NEW! Get paid to shop with Cashback" title="NEW! Get paid to shop with Cashback" /></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="./imgs/simgd.jpg" alt="NEW! Radiation Protection at its Best" title="NEW! Radiation Protection at its Best" /></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="./imgs/simgd.jpg" alt="Unleash the Power of Isotonix Today" title="Unleash the Power of Isotonix Today" /></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="./imgs/simgd.jpg" alt="Motives is Changing the Face of UK Beauty" title="Motives is Changing the Face of UK Beauty" /></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="./imgs/simgd.jpg" alt="Get a Taste of Spring" title="Get a Taste of Spring" /></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="./imgs/simgd.jpg" alt="Try Isotonix OPC-3 Today for Better Health" title="Try Isotonix OPC-3 Today for Better Health" /></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="./imgs/simgd.jpg" alt="Feel like a princess with Royal Spa" title="Feel like a princess with Royal Spa" /></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="./imgs/simgd.jpg" alt="Stay energised with Isotonix for the Queen's Jubilee" title="Stay energised with Isotonix for the Queen's Jubilee" /></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="./imgs/simgd.jpg" alt="WorldStores - Top Brands Delivered Next Day" title="WorldStores - Top Brands Delivered Next Day" /></a>
+                            </li>
+                        </ul>
+                        <!--ui-banner-slides end-->
+                        <ul class="ui-banner-slogans">
+                            <li class="ui-line">
+                                <div class="ullinehover">
+                                    <div class="ui-bnnerimg floatLeft">
+                                        <img src="./imgs/simg.jpg" alt="" width="103" />
+                                    </div>
+                                    <div class="ui-bnnerp floatRight">
+                                        <h3>设计院开展扶贫济困募捐活动</h3>
+                                        <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位 开展扶贫济困募捐活动。
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="ui-line">
+                                <div class="ullinehover">
+                                    <div class="ui-bnnerimg floatLeft">
+                                        <img src="./imgs/simg.jpg" alt="" width="103" />
+                                    </div>
+                                    <div class="ui-bnnerp floatRight">
+                                        <h3>设计院开展扶贫济困募捐活动</h3>
+                                        <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位 开展扶贫济困募捐活动。
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="ui-line">
+                                <div class="ullinehover">
+                                    <div class="ui-bnnerimg floatLeft">
+                                        <img src="./imgs/simg.jpg" alt="" width="103" />
+                                    </div>
+                                    <div class="ui-bnnerp floatRight">
+                                        <h3>设计院开展扶贫济困募捐活动</h3>
+                                        <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位 开展扶贫济困募捐活动。
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="ui-line">
+                                <div class="ullinehover">
+                                    <div class="ui-bnnerimg floatLeft">
+                                        <img src="./imgs/simg.jpg" alt="" width="103" />
+                                    </div>
+                                    <div class="ui-bnnerp floatRight">
+                                        <h3>设计院开展扶贫济困募捐活动</h3>
+                                        <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位 开展扶贫济困募捐活动。
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="ui-line">
+                                <div class="ullinehover">
+                                    <div class="ui-bnnerimg floatLeft">
+                                        <img src="./imgs/simg.jpg" alt="" width="103" />
+                                    </div>
+                                    <div class="ui-bnnerp floatRight">
+                                        <h3>设计院开展扶贫济困募捐活动</h3>
+                                        <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位 开展扶贫济困募捐活动。
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="ui-line">
+                                <div class="ullinehover">
+                                    <div class="ui-bnnerimg floatLeft">
+                                        <img src="./imgs/simg.jpg" alt="" width="103" />
+                                    </div>
+                                    <div class="ui-bnnerp floatRight">
+                                        <h3>设计院开展扶贫济困募捐活动</h3>
+                                        <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位 开展扶贫济困募捐活动。
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="ui-line">
+                                <div class="ullinehover">
+                                    <div class="ui-bnnerimg floatLeft">
+                                        <img src="./imgs/simg.jpg" alt="" width="103" />
+                                    </div>
+                                    <div class="ui-bnnerp floatRight">
+                                        <h3>设计院开展扶贫济困募捐活动</h3>
+                                        <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位 开展扶贫济困募捐活动。
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="ui-line">
+                                <div class="ullinehover">
+                                    <div class="ui-bnnerimg floatLeft">
+                                        <img src="./imgs/simg.jpg" alt="" width="103" />
+                                    </div>
+                                    <div class="ui-bnnerp floatRight">
+                                        <h3>设计院开展扶贫济困募捐活动</h3>
+                                        <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位 开展扶贫济困募捐活动。
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="ui-line">
+                                <div class="ullinehover">
+                                    <div class="ui-bnnerimg floatLeft">
+                                        <img src="./imgs/simg.jpg" alt="" width="103" />
+                                    </div>
+                                    <div class="ui-bnnerp floatRight">
+                                        <h3>设计院开展扶贫济困募捐活动</h3>
+                                        <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位 开展扶贫济困募捐活动。
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="ui-line">
+                                <div class="ullinehover">
+                                    <div class="ui-bnnerimg floatLeft">
+                                        <img src="./imgs/simg.jpg" alt="" width="103" />
+                                    </div>
+                                    <div class="ui-bnnerp floatRight">
+                                        <h3>设计院开展扶贫济困募捐活动</h3>
+                                        <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位 开展扶贫济困募捐活动。
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="ui-line">
+                                <div class="ullinehover">
+                                    <div class="ui-bnnerimg floatLeft">
+                                        <img src="./imgs/simg.jpg" alt="" width="103" />
+                                    </div>
+                                    <div class="ui-bnnerp floatRight">
+                                        <h3>设计院开展扶贫济困募捐活动</h3>
+                                        <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位 开展扶贫济困募捐活动。
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="ui-line">
+                                <div class="ullinehover">
+                                    <div class="ui-bnnerimg floatLeft">
+                                        <img src="./imgs/simg.jpg" alt="" width="103" />
+                                    </div>
+                                    <div class="ui-bnnerp floatRight">
+                                        <h3>设计院开展扶贫济困募捐活动</h3>
+                                        <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位 开展扶贫济困募捐活动。
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!--ui-banner-slogans end-->
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- 中间部分 -->
+
+
+
+
+            <div id="mpartner" class="module">
+                <div class="bgmask"></div>
+
+            </div>
+            <div id="mcontact" class="module">
+
+
+                <div class="bgmask"></div>
+
+                <div class="content">
+
+                    <div class="header wow fadeInUp fw" data-wow-delay=".1s">
+
+                        <p class="title">联系</p>
+
+
+                        <p class="subtitle">Contact</p>
+
+                    </div>
+
+                    <div id="contactlist" class="fw">
+
+                        <div id="contactinfo" class="fl wow" data-wow-delay=".2s">
+
+
+
+                            <h3 class="ellipsis name">网站建设文化传播有限公司</h3>
+
+
+                            <p class="ellipsis add"><span>地点：</span>中国地区XX分区5A写字楼8-88室</p>
+
+
+
+                            <p class="ellipsis zip"><span>邮编：</span>100000</p>
+
+
+
+                            <p class="ellipsis tel"><span>电话：</span>400-888-8888</p>
+
+
+
+                            <p class="ellipsis mobile"><span>手机：</span>188-666-5188</p>
+
+
+
+                            <p class="ellipsis fax"><span>传真：</span>000-66668888</p>
+
+
+
+                            <p class="ellipsis email"><span>邮箱：</span>website@qq.com</p>
+
+
+                            <div><a class="fl" target="_blank" href="#"><i class="fa fa-weibo"></i></a><a class="fl" target="_blank" href="#"><i class="fa fa-qq"></i></a>
+                                <a id="mpbtn" class="fl" href="./imgs/1438424052624.jpg"><i class="fa fa-weixin"></i></a>
+                            </div>
+
+                        </div>
+
+                        <div id="contactform" class="fr wow" data-wow-delay=".2s">
+
+                            <form action="" method="post">
+
+                                <p>
+
+                                    <input type="text" class="inputtxt name" name="name" placeholder="姓名" autocomplete="off" />
+
+                                </p>
+
+                                <p>
+
+                                    <input type="text" class="inputtxt email" name="email" placeholder="邮箱" autocomplete="off" />
+
+                                </p>
+
+                                <p>
+
+                                    <input type="text" class="inputtxt tel" name="tel" placeholder="电话" autocomplete="off" />
+
+                                </p>
+
+                                <p>
+
+                                    <textarea class="inputtxt cont" name="content" placeholder="内容" autocomplete="off"></textarea>
+
+                                </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    </div>
+    <div id="footer">
+        <p>COPYRIGHT (©) 2019 mo004_4100.
+            <a class="beian" href="#" style="display:inline; width:auto; color:#8e8e8e" target="_blank"> </a>
+        </p>
+    </div>
+
+
+
+
+</body>
+
+</html>

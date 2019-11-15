@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*地图*/
+
+.mapBox {
+    width: 688px;
+    margin: 10px auto;
+}
+
+.mapBox .mapPath {
+    display: none;
+    margin-top: 90px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    overflow: hidden;
+    background: #f4f4f4;
+    border-bottom: solid 3px #ccc;
+    padding: 5px;
+    text-align: center;
+}
+
+.address {
+    margin: 15px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.address:last-child {
+    margin-bottom: 50px;
+}
+
+.address .info {
+    width: 600px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    border-bottom: 1px #999 solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address .name {
+    font-size: 16px;
+    font-weight: 600;
+}

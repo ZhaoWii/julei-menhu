@@ -1,0 +1,50 @@
+
+.item-content .item:hover,.item-two img:hover{
+    opacity: .8;
+}
+.item:hover a{
+    color: #9B1916;text-decoration: none;
+}
+video{
+    width: 100%; height:100%; object-fit: fill;zoom:1;
+}
+
+.item-content{
+    background: #FAFAFA;
+    display: flex;
+    
+}
+.item-content-text{
+    width: 80%;height: auto;margin-left: 8%;padding-top: 5%;
+}
+.list-left{
+    width: 600px;
+    height: 450px;
+}
+.list-left img{
+    width: 100%;
+    height: 100%;
+}
+.service{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 100px;
+}
+.service .image {
+    width: 1200px;
+    margin: 0 auto;
+}
+.service .list{
+    width: 600px;
+    padding: 30px;
+    font-size: 16px;
+}
+.service .list .title{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.item-content-text p {
+    line-height: 1.8;
+}
